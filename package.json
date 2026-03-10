@@ -41,8 +41,9 @@
   "main": "main.js",
   "types": "./interface.d.ts",
   "engines": {
-    "node": ">=12"
+    "node": "20.x"
   },
+  "packageManager": "npm@10.8.2",
   "lint-staged": {
     "*.js": [
       "eslint --fix",
